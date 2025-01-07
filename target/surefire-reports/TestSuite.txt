@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 49.52 s <<< FAILURE! -- in TestSuite
+Cucumber.TestngTestRunner.runScenario["Positive scenario of submitting the order", "Purchase the order from the Ecommerce Website"](1) -- Time elapsed: 1.951 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.findElement(org.openqa.selenium.By)" because the return value of "PiyushRaj.pageobjects.ProductCatalogue.GetProductByName(String)" is null
+	at PiyushRaj.pageobjects.ProductCatalogue.AddProductToCart(ProductCatalogue.java:36)
+	at Piyush.StepDefinitions.StepDefinitionImplementation.addToCart(StepDefinitionImplementation.java:38)
+	at ✽.add <productName> to the cart(file:///Users/ahlawat/Downloads/EndToEndTesting/src/test/java/Cucumber/PurchaseOrder.feature:11)
+
